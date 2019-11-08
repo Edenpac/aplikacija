@@ -14,4 +14,10 @@ V obeh se pomaknemo v mapo z aplikacijo.Nato vnesemo:
 2. terminal: node ./src/server
 
 V 1. zaženemo aplikacijo, v 2. pa server.
-Nato 
+
+V 1. bo vrnilo napako v datoteki "node_modules/primeng/components/table/table.d.ts". Gre za napako importa modula. To datoteko odpremo v urejevalniku in spremenimo: 
+
+"import { OnDestroy } from '@angular/core/src/metadata/lifecycle_hooks';" v: "import { OnDestroy } from '@angular/core';". Ter shranimo.
+Nato zopet poženemo ukaz "ng serve".
+
+Nato odpremo aplikacijo v brskalniku na URL naslovu: http://localhost:4200/ .
