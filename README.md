@@ -6,7 +6,7 @@ Navodila za lokalni zagon:
 - Bazo je potrebno uvoziti na lokalni strežnik. Sam sem uporabljal spletni strežnik XAMPP- phpmyadmin.
 - Predvidevam, da imaste nameščene: NodeJS in @angular/cli. Prav tako nastavite pot do npm, med spremenljivkami okolja(Windows).
 
-Odpremo XAMPP in zaćenemo Apache in MYSQL
+Odpremo XAMPP in zaženemo Apache in MYSQL
 Potrebujemo 2 terminala:
 V obeh se pomaknemo v mapo z aplikacijo (kjer so mapa src), .Nato vnesemo:
 1.terminal: npm install --> da namestimo module v aplikacijo. To je potrebno le prvič, ker bi bila drugače aplikacija bolj velika.
@@ -21,3 +21,11 @@ V 1. bo vrnilo napako v datoteki "node_modules/primeng/components/table/table.d.
 Nato zopet poženemo ukaz "ng serve".
 
 Nato odpremo aplikacijo v brskalniku na URL naslovu: http://localhost:4200/ .
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Uporaba z MongoDB:
+
+Za grafični vmesnik sem uporabil MongoDB Compass Community. Seznam oseb iz "database.json" se vnese tako, da v menuju, kjer imamo zbirko, kliknemo "Collection-->Import Data". Tip datoteke se izbere JSON. Nato pobrskamo po datoteki. Datoteke .json ni videti. Zato je potrebno v mapi, kjer se datoteka nahaja, v polje "File name " vpisati ime datoteke (Ime bi se moralo pokazati v spustnem seznamu).
+
+Nato se izvede celoten postopek kot pri prejšnji verziji. S to izjemo, da ni potrebe po spletnem strežniku.
