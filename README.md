@@ -26,16 +26,10 @@ Nato odpremo aplikacijo v brskalniku na URL naslovu: http://localhost:4200/ .
 
 Uporaba z MongoDB:
 
-/*
-Za grafični vmesnik sem uporabil MongoDB Compass Community. 
-Najrej je v njem potrebno ustvariti podatkovno bazo "aplikacija" in Collection "osmodels". Nato se pomaknemo v "osmodels", kjer ni nobenega vnosa.
-Seznam oseb iz "database.json" se vnese tako, da v menuju, kjer imamo zbirko, kliknemo "Collection-->Import Data". Tip datoteke se izbere JSON. Nato pobrskamo po datoteki. Datoteke .json ni videti. Zato je potrebno v mapi, kjer se datoteka nahaja, v polje "File name " vpisati ime datoteke (Ime bi se moralo pokazati v spustnem seznamu).
-
-*/
 
 Za vnos podatkov v MongoDB, se v CMD-ju izvede ukaz:
 
-mongoimport -d aplikacija -c osmodels pot\do\datoteke\database    <--brez končnice .json !!!
+mongoimport -d aplikacija -c osmodels pot\do\datoteke\database    <--brez končnice .json !!! To je datoteka z zbirko. Je zraven mape "Aplikacija", v arhivu.
 
 
 Nato se izvede celoten postopek kot pri prejšnji verziji. S to izjemo, da ni potrebe po spletnem strežniku (XAMPP).
