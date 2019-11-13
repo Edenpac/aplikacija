@@ -9,7 +9,8 @@ Navodila za lokalni zagon:
 Odpremo XAMPP in zaženemo Apache in MYSQL
 Potrebujemo 2 terminala:
 V obeh se pomaknemo v mapo z aplikacijo (kjer so mapa src), .Nato vnesemo:
-1.terminal: npm install --> da namestimo module v aplikacijo. To je potrebno le prvič, ker bi bila drugače aplikacija bolj velika.
+1.terminal: npm install --> da namestimo module v aplikacijo. To je potrebno le prvič. Modulov nisem dodal, ker bi bila sicer aplikacija večja za naložit na GitHub in prenesti.
+
 1. terminal: ng serve
 2. terminal: node ./src/server
 
